@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+}
+.cardsShow {
+  padding: 50px 0 50px;
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  width: 350px;
+  border-radius: 18px;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px 15px 15px;
+  box-shadow: 5px 0px 20px rgba(155, 155, 155, 0.5);
+  transition: 500ms;
+}
+.card:hover {
+  scale: 1.1;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 0;
+}
+.up {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+
+.city {
+  text-align: center;
+  margin: 15px 0 3px;
+}
+.liveSpace {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.bgi {
+  width: 318px;
+  height: 240px;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  border-radius: 10px;
+}
