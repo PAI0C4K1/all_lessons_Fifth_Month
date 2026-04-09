@@ -1,0 +1,11 @@
+.shop {
+    min-height: 100vh;
+    padding: 180px 0 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    gap: 30px 15px;
+}
